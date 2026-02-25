@@ -29,6 +29,7 @@ int main() {
         cout << "5. Show how much a user owes\n";
         cout << "6. Exit\n";
         cout << "Enter your choice: ";
+        cin>>choice;
         
 
         if (choice == 1) {
@@ -111,3 +112,4 @@ int main() {
 
     return 0;
 }
+
